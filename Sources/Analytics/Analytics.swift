@@ -4,7 +4,7 @@ public struct Analytics {
     public init() {
     }
     
-    func track(){
-        @Binding var list: TaskList
+    public func getDeviceInfo() {
+        TrackDevice().trackCurrentDevice()
     }
 }
